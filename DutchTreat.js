@@ -33,9 +33,9 @@ clear.addEventListener("click", function () {
 historycliar.addEventListener("click", function () {
     inin.textContent = "";
 });
-function create(){
+function create() {
     const addtxt = document.createElement("p");
-    addtxt.innerHTML = `${cnt}回目の支払い。`  + result.textContent + "円使いました。" + "<br>" + now.toLocaleString();
+    addtxt.innerHTML = `${cnt}回目の支払い。` + result.textContent + "円使いました。" + "<br>" + now.toLocaleString();
     return addtxt;
 };
 division.onclick = function () {
